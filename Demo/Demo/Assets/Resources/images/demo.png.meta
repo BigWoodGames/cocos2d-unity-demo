@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: e32e47c86b96541e49bd3d31f9b20c94
+timeCreated: 1453369108
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: demo_ID10.png
+    21300002: demo_ID13.png
+    21300004: demo_ID16.png
+    21300006: demo_ID19.png
+    21300008: demo_ID2.png
+    21300010: demo_ID22.png
+    21300012: demo_ID24.png
+    21300014: demo_ID4.png
+    21300016: demo_ID7.png
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: demo_ID10.png
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 22
+        width: 51
+        height: 29
+      alignment: 0
+      pivot: {x: 131.5, y: 36.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: demo_ID13.png
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 40
+        width: 74
+        height: 65
+      alignment: 0
+      pivot: {x: 199, y: 72.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: demo_ID16.png
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 107
+        width: 118
+        height: 153
+      alignment: 0
+      pivot: {x: 180, y: 183.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: demo_ID19.png
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 8
+        width: 51
+        height: 43
+      alignment: 0
+      pivot: {x: 78.5, y: 29.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: demo_ID2.png
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 129
+        width: 16
+        height: 131
+      alignment: 0
+      pivot: {x: 249, y: 194.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: demo_ID22.png
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 107
+        width: 118
+        height: 153
+      alignment: 0
+      pivot: {x: 60, y: 183.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: demo_ID24.png
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 26, y: 26}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: demo_ID4.png
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 53
+        width: 159
+        height: 52
+      alignment: 0
+      pivot: {x: 80.5, y: 79}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: demo_ID7.png
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 103
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 248.5, y: 115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

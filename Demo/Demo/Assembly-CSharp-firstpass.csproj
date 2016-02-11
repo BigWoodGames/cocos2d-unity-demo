@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{7405B0C2-8C09-B5F9-1158-26143DD6F644}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_1_2;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity5/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity5/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\Editor\CCTMXProcessor.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\Editor\CCTPProcessor.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\apple\CADisplayLink.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\apple\CGAffineTransform.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\apple\FileUtils.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\apple\FloatUtils.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\apple\NSAppDelegate.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\apple\NSArray.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\apple\NSColletionUtils.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\apple\NSDictionary.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\apple\NSNotification.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\apple\NSProtocols.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\apple\NSSerializableDictionary.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\apple\NSUtils.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\apple\UITouch.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\apple\UIView.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\apple\UIViewController.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\apple\UIWindow.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\CCAction.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\CCActionManager.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\CCAnimationCache.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\CCAppDelegate.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\CCDebug.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\CCDirector.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\CCFactory.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\CCGLView.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\CCLabelTTF.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\CCLayer.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\CCMenu.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\CCNode.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\CCNodeRGBA.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\CCProtocols.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\CCScene.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\CCScheduler.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\CCSprite.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\CCSpriteFrame.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\CCSpriteFrameCache.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\CCTMXParser.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\CCTouchDelegateProtocol.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\CCTouchDispatcher.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\CCTouchHandler.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\SimpleAudioEngine.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCActionEase.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCActionFiniteTime.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCActionInstant.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCActionInterval.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCAnimate.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCAnimation.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCBezier.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCBlink.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCCallFunc.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCDelayTime.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCEase.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCEaseBack.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCEaseBounce.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCEaseElastic.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCEaseExponential.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCEasePolynomial.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCEaseSine.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCFade.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCFlip.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCFollow.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCJump.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCMove.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCPlace.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCRemove.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCRepeat.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCRepeatForever.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCReverseTime.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCRotate.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCScale.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCSequence.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCShow.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCSpawn.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCSpeed.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCTargetedAction.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\action\CCTint.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\ccConfig.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\ccMacros.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\ccTypes.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\menuItem\CCMenuItem.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\menuItem\CCMenuItemFont.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\menuItem\CCMenuItemImage.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\menuItem\CCMenuItemLabel.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\menuItem\CCMenuItemSprite.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\menuItem\CCMenuItemToogle.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\scheduler\CCSchedulerTypes.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\scheduler\CCTimer.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\scheduler\CCTimerBlock.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\scheduler\CCTimerTargetSelector.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\support\UTHash.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\cocos2d\support\ccUtils.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\extends\CCScrollLayer.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\extends\CCShake.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\flash\imp\define\Define.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\flash\imp\define\DefineFactory.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\flash\imp\define\DefineGraphic.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\flash\imp\define\DefineMovie.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\flash\imp\define\Flash.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\flash\imp\define\FrameObject.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\flash\imp\define\Utils.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\flash\imp\display\Display.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\flash\imp\display\DisplayFactory.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\flash\imp\display\Graphic.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\flash\imp\display\Movie.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\flash\imp\wrap\BBFlash.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\flash\imp\wrap\BBFlashDisplayFactory.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\flash\imp\wrap\BBFlashFactory.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\flash\imp\wrap\BBFlashGraphic.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\flash\imp\wrap\BBFlashImp.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\flash\imp\wrap\BBFlashMovie.cs" />
+     <Compile Include="Assets\Plugins\cocos2d-unity\BBGamelib\lib\flash\imp\wrap\BBFlashMovieImp.cs" />
+     <None Include="Assets\Resources\images\demo-tp.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity5/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity5/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity5/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>/Applications/Unity5/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
