@@ -39,16 +39,18 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>/Applications/Unity5/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>/Applications/Unity5/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AppDelegate.cs" />
      <Compile Include="Assets\Scripts\HelloEvents.cs" />
      <Compile Include="Assets\Scripts\HelloFlash.cs" />
+     <Compile Include="Assets\Scripts\HelloKeyboardEvent.cs" />
+     <Compile Include="Assets\Scripts\HelloMouseEvent.cs" />
      <Compile Include="Assets\Scripts\HelloNSNotification.cs" />
      <Compile Include="Assets\Scripts\HelloWorldLayer.cs" />
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\apple\CADisplayLink.cs" />
@@ -59,6 +61,7 @@
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\apple\NSArray.cs" />
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\apple\NSColletionUtils.cs" />
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\apple\NSDictionary.cs" />
+     <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\apple\NSEvent.cs" />
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\apple\NSNotification.cs" />
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\apple\NSProtocols.cs" />
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\apple\NSSerializableDictionary.cs" />
@@ -77,6 +80,7 @@
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\cocos2d\CCGLView.cs" />
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\cocos2d\CCLabelTTF.cs" />
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\cocos2d\CCLayer.cs" />
+     <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\cocos2d\CCLayerRGBA.cs" />
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\cocos2d\CCMenu.cs" />
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\cocos2d\CCNode.cs" />
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\cocos2d\CCNodeRGBA.cs" />
@@ -87,6 +91,7 @@
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\cocos2d\CCSpriteFrame.cs" />
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\cocos2d\CCSpriteFrameCache.cs" />
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\cocos2d\CCTMXParser.cs" />
+     <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\cocos2d\CCTouchDelegate.cs" />
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\cocos2d\CCTouchDelegateProtocol.cs" />
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\cocos2d\CCTouchDispatcher.cs" />
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\cocos2d\CCTouchHandler.cs" />
@@ -129,6 +134,9 @@
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\cocos2d\ccConfig.cs" />
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\cocos2d\ccMacros.cs" />
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\cocos2d\ccTypes.cs" />
+     <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\cocos2d\mac\CCDirectorMac.cs" />
+     <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\cocos2d\mac\CCEventDelegate.cs" />
+     <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\cocos2d\mac\CCEventDispatcher.cs" />
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\cocos2d\menuItem\CCMenuItem.cs" />
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\cocos2d\menuItem\CCMenuItemFont.cs" />
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\cocos2d\menuItem\CCMenuItemImage.cs" />
@@ -141,6 +149,7 @@
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\cocos2d\scheduler\CCTimerTargetSelector.cs" />
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\cocos2d\support\UTHash.cs" />
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\cocos2d\support\ccUtils.cs" />
+     <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\cocos2d\support\utList.cs" />
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\extends\CCScrollLayer.cs" />
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\extends\CCShake.cs" />
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\flash\imp\define\Define.cs" />
@@ -162,18 +171,17 @@
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\flash\imp\wrap\BBFlashMovie.cs" />
      <Compile Include="Assets\cocos2d-unity\BBGamelib\lib\flash\imp\wrap\BBFlashMovieImp.cs" />
      <None Include="Assets\Resources\images\demo-tp.txt" />
-     <None Include="Assets\cocos2d-unity\LICENSE_cocos2d.txt" />
  <Reference Include="UnityEngine.UI">
- <HintPath>/Applications/Unity5/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>/Applications/Unity5/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>/Applications/Unity5/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>/Applications/Unity5/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
