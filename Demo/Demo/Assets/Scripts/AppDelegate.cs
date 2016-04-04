@@ -27,12 +27,13 @@ public class AppDelegate : CCAppDelegate {
 		_director.view = _view;
 		_window.rootViewController = _director;
 
-//		_director.presentScene(HelloWorldLayer.Scene ());
+		_director.presentScene(HelloWorldLayer.Scene ());
 //		_director.presentScene(HelloEvents.Scene ());
 //		_director.presentScene(HelloMouseEvent.Scene ());
-		_director.presentScene(HelloKeyboardEvent.Scene ());
+//		_director.presentScene(HelloKeyboardEvent.Scene ());
 //		_director.presentScene(HelloNSNotification.Scene ());
 //		_director.presentScene(HelloFlash.Scene ());
+
 	}
 	
 	void OnApplicationQuit() {
