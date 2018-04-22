@@ -1,11 +1,9 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/cocos2d-unity/BBGamelib/lib/cocos2d/CCLabelTTF.cs">
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/HelloWorldLayer.cs">
     <Files>
-      <File FileName="Assets/cocos2d-unity/BBGamelib/lib/cocos2d/CCDirector.cs" Line="345" Column="1" />
-      <File FileName="Assets/Scripts/AppDelegate.cs" Line="30" Column="48" />
-      <File FileName="Assets/Scripts/HelloWorldLayer.cs" Line="5" Column="1" />
-      <File FileName="Assets/cocos2d-unity/BBGamelib/lib/cocos2d/CCLabelTTF.cs" Line="268" Column="63" />
+      <File FileName="Assets/Scripts/HelloFlash.cs" Line="71" Column="17" />
+      <File FileName="Assets/Scripts/HelloWorldLayer.cs" Line="52" Column="73" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
