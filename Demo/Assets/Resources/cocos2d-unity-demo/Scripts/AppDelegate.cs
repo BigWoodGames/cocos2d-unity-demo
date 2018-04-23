@@ -38,6 +38,7 @@ public class AppDelegate : CC3AppDelegate {
 		_director.presentScene(Hello3D.Scene ());
 
 	}
+
 	public void resetResolution(int width, int height, bool isFullScreen)
 	{
 		CCDebug.Log("Appdelegate resetResolution: {0}x{1}", width, height);

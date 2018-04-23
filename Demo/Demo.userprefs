@@ -1,9 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/HelloWorldLayer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Resources/cocos2d-unity-demo/Scripts/HelloFlash.cs">
     <Files>
-      <File FileName="Assets/Scripts/HelloFlash.cs" Line="71" Column="17" />
-      <File FileName="Assets/Scripts/HelloWorldLayer.cs" Line="52" Column="73" />
+      <File FileName="Assets/Resources/cocos2d-unity-demo/Scripts/Hello3D.cs" Line="18" Column="2" />
+      <File FileName="Assets/Resources/cocos2d-unity-demo/Scripts/HelloFlash.cs" Line="65" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

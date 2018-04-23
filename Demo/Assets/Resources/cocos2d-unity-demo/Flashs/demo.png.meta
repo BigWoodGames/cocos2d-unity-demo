@@ -16,7 +16,7 @@ TextureImporter:
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -26,7 +26,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -42,23 +42,26 @@ TextureImporter:
     aniso: 16
     mipBias: -1
     wrapMode: 1
-  nPOTScale: 0
+  nPOTScale: 1
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 0
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 1
-  textureType: 8
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
   buildTargetSettings: []
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: demo_ID10.png
+    - serializedVersion: 2
+      name: demo_ID10.png
       rect:
         serializedVersion: 2
         x: 106
@@ -68,7 +71,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 131.5, y: 36.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: demo_ID13.png
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: demo_ID13.png
       rect:
         serializedVersion: 2
         x: 162
@@ -78,7 +84,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 199, y: 72.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: demo_ID16.png
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: demo_ID16.png
       rect:
         serializedVersion: 2
         x: 121
@@ -88,7 +97,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 180, y: 183.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: demo_ID19.png
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: demo_ID19.png
       rect:
         serializedVersion: 2
         x: 53
@@ -98,7 +110,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 78.5, y: 29.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: demo_ID2.png
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: demo_ID2.png
       rect:
         serializedVersion: 2
         x: 241
@@ -108,7 +123,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 249, y: 194.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: demo_ID22.png
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: demo_ID22.png
       rect:
         serializedVersion: 2
         x: 1
@@ -118,7 +136,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 60, y: 183.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: demo_ID24.png
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: demo_ID24.png
       rect:
         serializedVersion: 2
         x: 1
@@ -128,7 +149,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 26, y: 26}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: demo_ID4.png
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: demo_ID4.png
       rect:
         serializedVersion: 2
         x: 1
@@ -138,7 +162,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 80.5, y: 79}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: demo_ID7.png
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: demo_ID7.png
       rect:
         serializedVersion: 2
         x: 241
@@ -148,6 +175,9 @@ TextureImporter:
       alignment: 0
       pivot: {x: 248.5, y: 115}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
